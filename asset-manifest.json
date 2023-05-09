@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/67zeros-project/static/css/main.474e5ae6.css",
-    "main.js": "/67zeros-project/static/js/main.29283807.js",
-    "static/media/einstein_gif.gif": "/67zeros-project/static/media/einstein_gif.b66273811b96b6ac6c33.gif",
-    "static/media/paper background.avif": "/67zeros-project/static/media/paper background.dacaca9d35767cb30780.avif",
-    "static/media/67ZerosLogo.PNG": "/67zeros-project/static/media/67ZerosLogo.7d621f35a15c43a3762e.PNG",
-    "static/media/main page background.jpg": "/67zeros-project/static/media/main page background.04f46ee7440ef1f56718.jpg",
-    "static/media/probability-graph.PNG": "/67zeros-project/static/media/probability-graph.8313a94a1f30cc017b28.PNG",
-    "static/media/numbers-graph.PNG": "/67zeros-project/static/media/numbers-graph.7c969a2f0cd7c42bb182.PNG",
-    "index.html": "/67zeros-project/index.html",
-    "main.474e5ae6.css.map": "/67zeros-project/static/css/main.474e5ae6.css.map",
-    "main.29283807.js.map": "/67zeros-project/static/js/main.29283807.js.map"
+    "main.css": "/static/css/main.9c9d9f2c.css",
+    "main.js": "/static/js/main.29283807.js",
+    "static/media/einstein_gif.gif": "/static/media/einstein_gif.b66273811b96b6ac6c33.gif",
+    "static/media/paper background.avif": "/static/media/paper background.dacaca9d35767cb30780.avif",
+    "static/media/67ZerosLogo.PNG": "/static/media/67ZerosLogo.7d621f35a15c43a3762e.PNG",
+    "static/media/main page background.jpg": "/static/media/main page background.04f46ee7440ef1f56718.jpg",
+    "static/media/probability-graph.PNG": "/static/media/probability-graph.8313a94a1f30cc017b28.PNG",
+    "static/media/numbers-graph.PNG": "/static/media/numbers-graph.7c969a2f0cd7c42bb182.PNG",
+    "index.html": "/index.html",
+    "main.9c9d9f2c.css.map": "/static/css/main.9c9d9f2c.css.map",
+    "main.29283807.js.map": "/static/js/main.29283807.js.map"
   },
   "entrypoints": [
-    "static/css/main.474e5ae6.css",
+    "static/css/main.9c9d9f2c.css",
     "static/js/main.29283807.js"
   ]
 }

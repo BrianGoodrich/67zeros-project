@@ -62,22 +62,29 @@ const InputBox = () => {
         setChance(94);
       }
 
-      if(tempNum.length < 67){
-        setNumErr(true);
-      }else{
-        generatePDF();
-      }
+      let isnum = /^\d+$/.test(tempNum);
 
-        await superagent
-            .get(`http://18.221.55.184:5000/?fname=${first}&lname=${last}&number=${tempNum}`)
-            .set('X-API-Key', 'foobar')
-            .set('Accept', 'application/json')
-            .then(res => {  
-              console.log(JSON.stringify(res.body.error))
-              if(JSON.stringify(res.body.error) === "-1"){
-                setNumExist(true);
-              }
-            }).catch(err => console.log(err))
+      console.log(isnum);
+      
+      if(isnum){
+        if(tempNum.length < 67 ){
+          setNumErr(true);
+        }else{
+          await superagent
+              .get(`http://18.221.55.184:5000/?fname=${first}&lname=${last}&number=${tempNum}`)
+              .set('X-API-Key', 'foobar')
+              .set('Accept', 'application/json')
+              .then(res => {  
+                console.log(JSON.stringify(res.body.error))
+                if(JSON.stringify(res.body.error) === "-1"){
+                  setNumExist(true);
+                }
+              }).catch(err => console.log(err))
+          generatePDF();
+        }
+      }else{
+        window.alert("Error: Invalid input, please enter an integer value.");
+      }
     }
 
     return (
